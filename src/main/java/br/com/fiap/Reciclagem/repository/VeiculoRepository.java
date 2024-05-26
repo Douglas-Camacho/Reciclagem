@@ -9,5 +9,4 @@ public interface VeiculoRepository extends JpaRepository<Veiculo, Long> {
 
     public Veiculo findbyNome(String placa);
 
-
 }
