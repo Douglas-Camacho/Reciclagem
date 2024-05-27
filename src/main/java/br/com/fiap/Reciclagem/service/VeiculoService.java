@@ -54,6 +54,13 @@ public class VeiculoService {
         }
 
     }
-
+    public Veiculo buscarPelaPlaca(String placa){
+        Optional<Veiculo> veiculoOptional = veiculoRepository.findByPlaca(placa);
+        if (veiculoOptional.isPresent()){
+            return veiculoOptional.get();
+        } else {
+            throw new RuntimeException("veiculo não encontrado");
+        }
+    }
 
 }
