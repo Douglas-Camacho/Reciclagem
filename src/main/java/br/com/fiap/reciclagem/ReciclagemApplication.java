@@ -1,4 +1,4 @@
-package br.com.fiap.Reciclagem;
+package br.com.fiap.reciclagem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

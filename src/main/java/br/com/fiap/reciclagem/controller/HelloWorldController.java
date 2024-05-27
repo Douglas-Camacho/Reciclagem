@@ -1,4 +1,4 @@
-package br.com.fiap.Reciclagem.controller;
+package br.com.fiap.reciclagem.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,13 +6,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-public class HelloController {
+public class HelloWorldController {
+
     @GetMapping("/hello")
-    public String hello(){
-        return "Hellow World";
+    public String getHelloWorld(){
+        return "Hello World! Spring Boot";
     }
+
     @GetMapping("/ola")
-    public  String ola() {
-        return "Olá mundo!";
+    public String getOlaMundo(){
+        return "Olá mundo! Spring Boot";
     }
+
 }
