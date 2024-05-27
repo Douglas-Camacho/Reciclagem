@@ -10,11 +10,11 @@ public class Veiculo {
     @Id
     @GeneratedValue(
             strategy = GenerationType.SEQUENCE,
-            generator = "ID_VEICULO"
+            generator = "SEQ_VEICULOS"
     )
     @SequenceGenerator(
-            name = "ID_VEICULO",
-            sequenceName = "ID_VEICULO",
+            name = "SEQ_VEICULOS",
+            sequenceName = "SEQ_VEICULOS",
             allocationSize = 50
     )
     private long id;
