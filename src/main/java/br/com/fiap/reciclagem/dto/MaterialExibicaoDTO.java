@@ -1,5 +1,4 @@
 package br.com.fiap.reciclagem.dto;
-import lombok.*;
 import br.com.fiap.reciclagem.model.Material;
 import lombok.Data;
 

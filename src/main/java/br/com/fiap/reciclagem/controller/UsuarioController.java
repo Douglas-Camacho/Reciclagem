@@ -2,7 +2,6 @@ package br.com.fiap.reciclagem.controller;
 
 import br.com.fiap.reciclagem.dto.UsuarioCadastroDTO;
 import br.com.fiap.reciclagem.dto.UsuarioExibicaoDTO;
-import br.com.fiap.reciclagem.exception.UsuarioNaoEncontradoException;
 import br.com.fiap.reciclagem.model.Usuario;
 import br.com.fiap.reciclagem.service.UsuarioService;
 import jakarta.validation.Valid;

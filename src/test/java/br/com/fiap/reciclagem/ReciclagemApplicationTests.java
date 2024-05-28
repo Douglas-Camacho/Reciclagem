@@ -1,4 +1,4 @@
-package br.com.fiap.Reciclagem;
+package br.com.fiap.reciclagem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
